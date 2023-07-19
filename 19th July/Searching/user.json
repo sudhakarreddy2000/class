@@ -1,0 +1,27 @@
+[
+  {
+  "id":1,
+  "name":"Kiran",
+  "city":"https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg"
+
+},
+{
+    "id":2,
+    "name":"Karan",
+    "city":"https://static.toiimg.com/photo/msid-92654212,width-96,height-65.cms"
+  
+  },
+  {
+    "id":3,
+    "name":"Seetha",
+    "city":"https://www.nationsonline.org/gallery/India/Gateway-of-India.jpg"
+  
+  },
+  {
+    "id":3,
+    "name":"Chennai",
+    "city":"https://img.staticmb.com/mbcontent//images/uploads/2022/11/posh-areas-in-chennai.jpg"
+  
+  }
+
+]

@@ -1,0 +1,28 @@
+[
+{
+  "id":1,
+  "name":"Kiran",
+  "place":"Hyderabad",
+  "pic":"logo192.png"
+},
+{
+    "id":2,
+    "name":"Karan",
+    "place":"Gutur",
+    "pic":"./bird1.jpg"
+  
+  },
+  {
+    "id":3,
+    "name":"Seetha",
+    "place":"Hyderabad",
+    "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsOyWJGgl4IoJ-hFyqbs7xuKKDQqFBD6M6ARboGU0tiOxmS_DvWUXWGdPFr4I8VRPodW0&usqp=CAU"
+  },
+  {
+    "id":4,
+    "name":"Geetha",
+    "place":"Hyderabad",
+    "pic":"bird1.jpg"
+  }
+
+]
