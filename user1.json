@@ -1,0 +1,21 @@
+[
+{
+  "id":1,
+  "name":"Kiran",
+  "place":"Hyderabad",
+  "pic":"logo192.png"
+},
+{
+    "id":2,
+    "name":"Karan",
+    "place":"Gutur",
+    "pic":"bird.jpg"
+  
+  },
+  {
+    "id":3,
+    "name":"Seetha",
+    "place":"Hyderabad",
+    "pic":"cc.jpg"
+  }
+]
