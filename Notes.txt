@@ -1,0 +1,102 @@
+20th July
+=======
+useState() hook
+useEffect() hook
+
+Life cycle of react:
+React lifecycle methods
+What are React lifecycle methods? To put it in simple terms, you can think of the React component lifecycle as the “lifetime” of a component. 
+
+Lifecycle methods are series of events that happen throughout the birth, growth, and death of a React component.
+
+In React, components go through a lifecycle of events:
+1.	Mounting (adding nodes to the DOM)
+2.	Updating (altering existing nodes in the DOM)
+3.	Unmounting (removing nodes from the DOM)
+
+You can think of these events as a component’s birth, growth, and death, respectively. 
+
+Mounting:
+Mounting a component is like bringing a newborn baby into the world. This is the component’s first glimpse of life. At this phase, the component, which consists of your code and React’s internals, is then inserted into the DOM.
+
+Updating:
+After the mounting phase, the React component “grows” during the updating phase. 
+Without updates, the component would remain as it was when it was initially created in the DOM. 
+As you might imagine, many of the components you write till need to be updated ,  whether via a change in state or props. Consequently, they go through the updating phase as well.
+
+UnMounting:
+The final phase is called the unmounting phase. At this stage, the component “dies”. In React lingo, it is removed from  the DOM.
+
+
+useEffect= equal to class component life cycle methods =>componentDidMount , componentDidUpdate and componentWillUnmount
+
+The useEffect Hook allows you to perform side effects in your components.
+
+By using this Hook, you tell React that your component needs to do something after render. React will remember the function you passed (we'll refer to it as our “effect”), and call it later after performing the DOM updates.
+
+What are side effects in React?
+Side effects are not predictable because they are actions which are performed with the "outside world."
+
+We perform a side effect when we need to reach outside of our React components to do something. Performing a side effect, however, will not give us a predictable result.
+
+Think about if we were to request data (like blog posts) from a server that has failed and instead of our post data, gives us a 500 status code response.
+
+Virtually all applications rely on side effects to work in one way or another, aside from the simplest applications.
+
+Common side effects include:
+
+Making a request to an API for data from a backend server
+To interact with browser APIs (that is, to use document or window directly)
+Using unpredictable timing functions like setTimeout or setInterval
+
+A side-effect can be any effect(programming logic) that is responsible for changing the state of your component. If the state changes, the component re-renders. For example, a typical side effect is making an API call and changing the local state of a component to store the API response data.
+
+useEffect accepts two arguments. The second argument is optional.
+
+useEffect(<function>, <dependency>)
+
+useEffect works everytime return statement renders | useEffect() will work immediately application opens
+	useEffect(()=>{console.log('clicked')})
+but if you want to use only once use dependencies[]
+if you use dependencies in useEffect 'clicked' message will display only in the begining of app.
+
+but if you want to execute useEffect every time certain state renders then write below code
+
+call state to dependencies=>[state]
+
+	useEffect(()=>console.log('hello'),[state])   =>executes everytime state updates
+
+21st July:
+==========
+useEffect with API
+fetch() method
+promise
+
+axios
+
+API: Application Programming Interface
+API is the acronym for application programming interface — a software intermediary that allows two applications to talk to each other. 
+APIs are an accessible way to extract and share data within and across organizations.
+
+APIs are all around us. Every time you use a rideshare app, send a mobile payment, or change the thermostat temperature from your phone, you’re using an API.
+
+api=>jsonplaceholder, https://randomuser.me/
+
+
+AXIOS:
+======
+Axios allows you to communicate with the APIs in your React project. 
+Fetch and Axios are very similar in functionality. Some developers prefer Axios over built-in APIs for its ease of use.
+
+Axios performs automatic transforms of JSON data.	
+Fetch is a two-step process when handling JSON data- first, to make the actual request; second, to call the .json() method on the response.
+
+Axios has wide browser support.	
+Fetch only supports Chrome 42+, Firefox 39+, Edge 14+, and Safari 10.1+ (This is known as Backward Compatibility).
+
+in simple terms axios is alternative to fetch method to get data from API'S
+
+example of axios code:
+	axios.get()
+
+	npm install axios
