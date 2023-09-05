@@ -1,0 +1,37 @@
+4th Sept:
+=========
+React fsd26
+--------------
+	inline css  => <h2 style="color:red;"> </h2>
+	To use inline styles in React, use the style attribute, which accepts a JavaScript object with camel 	case properties
+		const clr={
+			color:'red'
+			}
+
+		in jsx
+		<h3 style={clr}> </h3>
+
+	external css ==>.css=> <link href="file.css" rel="stylesheet">
+		=>create .css file in src folder
+		=>import into react file(component)
+			import './style.css' 
+
+	internal css ==><head> <style>  </style></head>
+		=>in case if you want to use internal css, write css code in index.html (public folder)
+
+
+google fonts:
+=========
+5th Sept:
+======
+if else with css styles
+	date
+	marks color
+
+importing and exporting data from one js file to another
+
+export default data
+
+import data from './App'
+
+=>only one default export allowed per module. 
