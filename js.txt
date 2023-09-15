@@ -1,0 +1,956 @@
+Javascript:
+===========
+javascript is used for
+	=>Dynamic website
+	=>Interactive website
+	=>client side validations
+
+
+=>javascript is case sensitive
+	TEST()
+	test()
+
+javacript can be written in 2 ways
+	1) internal javascript
+			->.html
+	2) external javascript
+			->.js
+
+24th May:
+=========
+Meta tags
+What are meta tags in HTML?
+meta tags are HTML tags used to provide additional information about a page to search engines and other clients. Clients process the meta tags and ignore those they don't support. meta tags are added to the <head> section of your HTML page
+
+Its best practice to include a call to action within your Meta description to give your reader a clear instruction of what action to take and why. Example of Meta description tag code: <meta name="description" content="This is a meta description. This text will show up in Google's search engine results page.">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Sudhakar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+double quotes are not used inside double quotes
+single quotes are not used inside single quotes
+
+alert()==>displaying alert message
+prompt() ==> to take input values from user
+confirm() ==>used for confirmation
+
+Date() function
+
+25th May:
+=========
+
+Variables:
+===========
+A JavaScript variable is simply a name of storage location.
+
+Variables are the names you give to computer memory locations which are used to store values in a computer program.
+
+In programming, a variable is a value that can change, depending on conditions or on information passed to the program. Typically, a program consists of instruction s that tell the computer what to do and data that the program uses when it is running.
+
+	var or let or const ==>variable can be declared using these 3 keywords
+
+	var uid  		-->declaring a variable
+	uid="Javascript" 	-->assigning a data value  
+
+	var uid="Javascript"  ==>we can declare and assinging
+
+
+
+26th May:
+=========
+concatination:
+	+ is used for concatination
+
+The concatenation operators combines two strings to form one string by appending the second string to the right-hand end of the first string
+
+var fname="Ravi"
+var lname="Kumar"
+document.write(fname lname)
+
+Data Types:
+===========
+1) String Data type:
+	In computer programming, a string is traditionally a sequence of characters.
+	var fname="ravi"
+
+
+2) Number Data type:
+	The Number is a primitive data type used for positive or negative integer, float values in JavaScript.
+	var num=33
+	var num2=44.44
+
+3) Boolean Data type
+	A JavaScript Boolean represents one of two values: true or false.
+
+	3<4 ==>true
+
+Operators:
+=========
+1) Artithmatic operator
+	+,-,/,*,%
+2) Assignment operator
+	=
+3) Conditional operators
+	<=,>=,!=,==,===
+4) Logical operator
+	&&(and), ||(or)
+
+
+var num="100"
+
+var result=p*r/num
+
+
+Date()
+
+funciton and method:
+
+A function is a set of instructions or procedures to perform a specific task, and a method is a set of instructions that are associated with an object.
+
+date methods:
+===============
+getHours()
+getMinutes()
+getSeconds()
+
+getDate()
+getMonth()
+getFullYear()
+
+getDay()
+
+
+if else condition:
+===================
+	if(condtion){
+		statement
+	}else{
+		statement
+	}
+
+marks <= 40 ==>Failed
+marks>40 ==>Passed
+
+
+29th May:
+=========
+if else dl task discussed
+
+uid=> javascript
+pwd=>software
+
+if else if condition:
+=======================
+	if(condition){
+		statement
+	}else if(condition){
+		statement
+	}else if(condition){
+		statement
+	}else{
+		statement
+	}
+
+	marks <=40  ==>failed
+	marks > 40-marks<=50 ==>pass
+	marks > 50 - marks <=60 ==>second
+	marks >60 - marks<=70 ==> first class
+	marks >70 - marks<=100 ==>distinction
+	marks>1000 =>invalid entry
+
+
+document
+	.write()
+	.getElementById()
+	.innerHTML()
+
+30th May:
+=========
+
+	toLocaleTimeString()
+	toLocaleDateString()
+
+
+	Arrays:
+
+	Arrays are variable with many values
+
+Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value. 
+Each item in an array has a number attached to it, called a numeric index, that allows you to access it. In JavaScript, arrays start at index zero and can be manipulated with various methods.
+		ex
+			var student1="Anil" ==>variable
+			document.write(student1)
+			document.getElementById('txt').innerHTML=student1
+			alert(student1)
+					0       1       2      3
+			var students=["Anil","Sunil","Teja","Suresh"] ==>array
+			document.write(students)
+			document.write(students[1]) ==>sunil
+
+
+60000*10/100=6000
+
+salary*10/100=
+
+take home salary
+	salary-taxamou=
+
+31st May:
+=============
+DOM=>Document Object Model
+
+What is the Document Object Model?
+Introduction. The Document Object Model (DOM) is an application programming interface (API) for HTML documents. 
+
+It defines the logical structure of documents and the way a document is accessed and manipulated.
+
+
+
+What is getElementById in JavaScript?
+The getElementById() method of the Document interface returns an Element object representing the element whose id property matches the specified string. 
+Since element IDs are required to be unique if specified, they're a useful way to get access/manipulate to a specific element quickly.
+
+What is the use of innerHTML?
+innerHTML is an HTML element property that has two uses for web developers: 
+1) You can use it to get the internal HTML content of any HTML element as an HTML string. 
+2) You can also use it to set or change elements' innerHTML content.
+
+switch case:
+============
+The switch statement is a part of JavaScript's "Conditional" Statements, which are used to perform different actions based on different conditions. 
+Use switch to select one of many blocks of code to be executed. 
+This is the perfect solution for long, nested if/else statements.
+
+	switch(condition){
+		case result1:
+		statement
+		break
+
+		case result2:
+		statement
+		break
+	}
+
+
+Array methods:
+==============
+pop() => The pop() method removes the last element from an array
+push() => The push() method adds a new element to an array (at the end)
+
+shift() => The shift() method removes the first array element and "shifts" all other elements to a lower index.
+
+unshift() => The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+
+
+1st June:
+==========
+for loop:
+=========
+	
+The for loop is an iterative statement which you use to check for certain conditions and then repeatedly execute a block of code as long as those conditions are met.	
+
+Loops can execute a block of code a number of times.
+
+	for(initialise; condition; increment/decrement){
+
+	}
+
+
+5th June:
+=========
+while loop:
+A while loop evaluates the condition inside the parenthesis () . If the condition evaluates to true , the code inside the while loop is executed. The condition is evaluated again. This process continues until the condition is false .
+
+while(condition){
+	code
+	increment/decrement
+}
+
+var i=1
+while(i<=10){
+	code
+	i++
+}
+
+initial value->10
+end value 100
+
+
+
+
+do while:
+========
+The do...while loop is similar to the while loop except that the condition check happens at the end of the loop. 
+This means that the loop will always be executed at least once, even if the condition is false.
+
+
+let count = 0;
+do {
+  console.log(count);
+  count++;
+} while (count < 5)
+
+
+functions:
+A function is a block of code that performs a specific task. 
+A function is a group of reusable code which can be called anywhere in your program. This eliminates the need of writing the same code again and again.
+
+	function demo(){
+	block of code
+	}
+
+	demo()
+	demo()
+	demo()
+
+
+6th June:
+==========
+var
+let
+const
+
+var and let create variables that can be reassigned another value.
+const creates "constant" variables that cannot be reassigned another value.
+
+scope:
+Scope refers to the availability of variables and functions in certain parts of the code.
+local, global and block scope
+js has 3 types of scopes
+
+1. block scope:
+    The scope created with a pair of curly braces{} (a block).
+
+2. function scope:
+    A function creates a scope, so that (for example) a variable defined exclusively within the function cannot be accessed from outside the function or within other functions
+
+3. global scope:
+    Variables defined outside a function They are called global variables and their scope is global. Variables defined inside a function are local variables.
+
+let & const provide block level scope which means that the variable declared inside { } cannot be accessed from outside the block
+{
+let a=10
+}
+//a is not accesseble here
+
+{
+  var a = 10;
+}
+// a can be used here
+
+variable declared within a js function becomes local to the function
+Local variables have Function Scope
+function demo() {
+  let fname = "Anil";
+  // code here CAN use fname
+}
+
+// code here can NOT use fname
+
+A variable declared outside a function, becomes GLOBAL.
+A global variable has Global Scope
+let fname = "Anil";
+// code here can use fname
+
+function demo() {
+// code here can also use fname
+}
+
+
+
+7th June:
+=========
+	function test(){
+
+	}
+	test()
+
+	Arrow functions:
+	=================
+	Arrow functions are introduced in es6(Ecma script6)
+
+	const test=()=>{
+
+	}
+
+	test()
+
+	Events:
+	=======
+
+	JavaScript's interaction with HTML is handled through events that occur when the user or the browser manipulates a page.
+
+When the page loads, it is called an event. When the user clicks a button, that click too is an event. Other examples include events like pressing any key, closing a window, resizing a window, etc.
+
+	onclick
+	onmouseover
+	onmouseout
+	onchange
+	onselect
+	onscroll
+	onload
+	onkeydown
+	onkeyup
+
+	parameters and arguments:
+	=========================
+	A parameter is a variable in a function definition. It is a placeholder and hence does not 	have a value. 
+	An argument is a value passed during function execution
+
+
+	function demo(parameter){
+
+	}
+	demo(argument)
+
+
+
+
+
+8th June:
+=========
+
+task discussion
+
+var arr=[]
+for(i=0;i<=3; i++){
+	arr.push(prompt("Enter your name here"))
+}
+
+
+alert("full array" +arr.join(','))
+
+onchange event
+	bg color
+	text color
+	image size
+Tast=>change font size or font family
+
+
+Objects:
+========
+JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value. 
+A property's value can be a function, in which case the property is known as a method.
+
+javascript object can be compared to objects in real life. In JavaScript, an object is a standalone entity, with properties and type.
+
+Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
+
+12th June:
+===========
+
+variables:
+let student1="Anil"
+let student2="Sunil"
+
+array:
+let students=['Anil','Sunil','pratap']
+
+Object:
+let students={
+	name:"Sunil",			=>property
+	rollno:100,
+	email:'sunil@gmail.com'
+}
+
+Objects can be created in different ways
+
+=> Object literal
+=> object constructor
+=> object constructor function
+
+Object literal:
+================
+JavaScript Object Literal is a data type used to define objects in JavaScript. 
+It is a syntax for creating an object in JavaScript that is composed of key-value pairs. 
+It is a lightweight and efficient way to create and store data.
+	ex:
+
+	let students={
+		name:"Sunil",			
+		rollno:100,
+		email:'sunil@gmail.com'
+		}
+
+
+
+for(x in obj){
+
+
+}
+
+
+//Creating objects using the new keyword.
+var student = new Object();
+
+    student.name = "Chris",
+
+    student.age=21,
+
+    student.studies = "Computer Science";
+
+    document.getElementById("demo").innerHTML = student.name + " of the age " + student.age + " studies " + student.studies;
+
+
+//Creating an object using the object constructor function. 
+// function stud(name, age, studies){
+
+//         this.name = name;
+
+//         this.age = age;
+
+//         this.studies = studies;
+
+//     }
+
+//     var student = new stud("Chris", 21, "Computer Science");
+
+//     document.getElementById("demo").innerHTML = student.name + " of the age " + student.age + " studies " + student.studies;
+
+
+
+13th June:
+=========
+Destructuring assignment:
+The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+
+Destructuring assignment is a special syntax that allows us to “unpack” arrays or objects into a bunch of variables
+
+
+
+	let arr=[1,2,3,4]
+
+	console.log(arr[0])
+
+
+	let user=['Anil','Hyderabad',22]
+        let name=user[0]=>old method
+	let place=user[1]
+
+
+
+
+        // let [name,place,age]=user
+        // console.log(name)
+        // console.log(place)
+        // console.log(age)
+
+
+
+ //destructuring using objec
+
+        let person={
+            name:'xyz',
+            age:22,
+            address:{
+                city:'Hyderbad',
+                state:'Telangana'
+            }
+        }
+
+            let {name,age,address:{city}}=person
+            console.log(name)
+            console.log(city)
+
+How can you destructure and assign to a variable :
+	const numbers = [10, 20];
+
+Then to access values 10 and 20 we can use array destructuring like this:
+
+const [a, b] = numbers;
+console.log(a); // 10
+console.log(b); // 20
+
+Spread Operator:
+=================
+	...example
+
+What is spread operator in JavaScript?
+The JavaScript spread operator ( ... ) allows us to quickly copy all or part of an existing array or object into another array or object.
+
+The spread (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected. 
+In an object literal, the spread syntax enumerates the properties of an object and adds the key-value pairs to the object being created.
+
+	let arr1=[1,2,3]
+	let arr2=[4,5,6]
+	let arr3=[...arr1,...arr2]
+
+
+addEventListener method:
+==========================
+
+The addEventListener() method is used to attach an event handler to a particular element.
+When using the addEventListener() method, the JavaScript is separated from the HTML markup, for better readability and allows you to add event listeners even when you do not control the HTML markup.
+
+Add an event listener that fires when a user clicks a button:
+
+document.addEventListener("click", function(){
+//alert("hello");
+document.body.style.background="yellow";
+});
+
+
+
+document.getElementById("btn").addEventListener("click",function(){
+	alert("Hello Event");
+});
+
+
+
+preventDefault:
+===============
+The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
+
+<a href="google.com">google</a>
+
+ <a href="https:\google.com" id='anchor' onclick="test()">google</a>
+    <script>
+     let link=document.getElementById('anchor')
+      link.addEventListener('click', function(e){
+	  console.log("link clicked")
+	  e.preventDefault()
+	  })
+    </script>
+
+
+
+example2:
+
+   <form id='myform'>
+	<input type="text">
+	<br>
+	<input type="submit">
+   </form>
+    <script>
+     let link=document.getElementById('myform')
+      link.addEventListener('submit', function(e){
+	  e.preventDefault()
+	  })
+    </script>
+
+
+14th June:
+==========
+
+Execution context:
+================
+everything in js happens inside an execuation context
+
+=>it is a big box
+	it has 2 components
+	1)Memory
+	key:value
+	a:10
+
+	2) code component
+	=>code executed line by line
+	=>known as thread of execution
+
+
+Execution Context
+An environment in which the javascript code runs is what form an execution context.
+The execution context decides what particular piece of code has access to variables, functions, objects, etc.
+Execution context have different types —
+1)Global Execution Context(GEC) and 
+2) Function Execution Context(FEC)
+
+
+Execution Stack / Call Stack
+Javascript can only run one thing at one time in the browser that means it is the single thread so it queues the other action, events, function in what is called as the execution stack.
+
+
+15th June:
+=========
+Javascript Hoisting:
+===================
+
+Hoisting is nothing but, Mechanism of giving/allocating memory to variable / function in the creation .
+
+Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration. 
+
+JavaScript Hoisting
+Hoisting is nothing but, Mechanism of giving/allocating memory to variable in the creation 
+Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration. 
+For example:
+var age=23
+console.log(age) 
+----------------
+console.log(age)
+var age=23
+-----------------
+ex2:
+var age=23
+var age=23
+What will happen?
+Will it be hoisted once or twice?
+----------------------------------------------------------------
+Partially hoisted:
+When the value is not given in creation phase is called partially hoisted.
+Variables are partially hoisted
+
+lets see what happens with function:
+functions are fully hoisted
+function sayHello(){
+console.log("hello")
+}
+sayHello()
+
+2)
+sayHello()
+function sayHello(){
+console.log("hello")
+}
+
+=>it should be undefined (like variable, but it shows defined)
+=>in js visualizer check
+=>it will not show undefined....
+=>functions also hoisted..
+=>functions are completely hoisted
+=>memory allocated and value given in creation phase
+
+Function expression example:
+1
+var sayHello=function(){le
+console.log("hello")
+}
+say Hello()
+
+2
+say Hello()
+var sayHello=function(){
+console.log("hello")
+} 
+
+---
+let example:
+console.log(name)
+let name="hello"
+=>let and const also hoisted but not initialised
+
+What is temporal deadzone in JavaScript?
+A temporal dead zone (TDZ) is the block where a variable is not accessible until the moment the computer initializes it with a value.
+
+Calculator App:
+
+What does eval () do in JavaScript?
+The eval() function evaluates JavaScript code represented as a string and returns its completion value.
+
+16th June:
+===========
+getElementById()
+getElementByTagName()
+getElementByClassName()
+
+querySelector()
+querySelectorAll()
+
+What is querySelector in JavaScript?
+The querySelector() is a method used for searching and returning the very first element within the document that matches the given selector.
+
+ex:
+	document.querySelector('h1')
+
+<h1> </h1>
+<h1> </h1>
+<h1> </h1>
+
+
+CREATE ELEMENT:
+===============
+createElement() method
+createTextNode() method
+createComment() method
+appendChild() method
+
+let x=document.createElement('h1')
+let txt=document.createTextNode("Hello Node")
+let cmt=document.createComment("commenting")
+console.log(x)
+console.log(txt)
+console.log(cmt)
+
+
+
+let newElem=document.createElement('p')
+let txt=document.createTextNode('How are you')
+newElem.appendChild(txt)
+console.log(newElem)
+//console.log(txt)
+
+==========
+Nested for loop examples:
+
+for(i=1; i<=10; i++){
+    for(j=1; j<=5; j++){
+        document.write('*')
+    }
+    document.write('<br>')
+}
+
+----
+
+for(i=1; i<=5; i++){
+    for(j=1; j<=i; j++){
+        document.write('*')
+    } 
+    document.write('<br>')
+}
+
+--------
+
+for(i=1; i<=10; i++){
+    for(j=1; j<=i; j++){
+        document.write(i)
+    } 
+    document.write('<br>')
+}
+
+
+19th June:
+==========
+Regular expressions
+Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects.
+
+A regular expression is a sequence of characters that forms a search pattern. The search pattern can be used for text search and text replace operations.
+
+syntax:
+/pattern/modifier(s);
+
+
+g	Perform a global match (find all matches rather than stopping after the first match)
+i	Perform case-insensitive matching
+m	Perform multiline matching
+
+/pattern/g
+var str="apple"
+//var pat=/p/
+var pat=/p/g
+
+
+Expression	Description
+[abc]	Find any character between the brackets
+[^abc]	Find any character NOT between the brackets
+[0-9]	Find any character between the brackets (any digit)
+[^0-9]	Find any character NOT between the brackets (any non-digit)
+(x|y)	Find any of the alternatives specified
+
+
+
+Metacharacter	Description
+.	Find a single character, except newline or line terminator
+\w	Find a word character
+\W	Find a non-word character
+\d	Find a digit
+\D	Find a non-digit character
+\s	Find a whitespace character
+\S	Find a non-whitespace character
+
+
+Math function:
+==============
+
+JavaScript math object is a predefined library function. Math Object allows you to perform all mathematical tasks like ceil, floor, abs ,round etc.
+
+
+
+Math.round(6.4); =>Returns the value of the number x rounded to the nearest integer.
+	ex:6
+Math.pow(2,4)=>Returns base x to the exponent power y (that is, xy).
+Math.floor(6.4) => down to nearest
+	ex:6
+Math.ceil(6.4)  => upto nearest
+	ex:7
+Math.random() =>Returns a pseudo-random number between 0 and 1.
+Math.max() =>Returns the largest of zero or more numbers.
+Math.min() =>Returns the smallest of zero or more numbers.
+Math.trunc(6.7)=> returns the integer part of x:
+	ex:6
+Math.sign(-6)=> Returns the sign of the x, indicating whether x is positive, negative, or zero.
+	ex:-1
+Math.sqrt(100) =>Returns the positive square root of x.
+	ex: 10
+Math.abs(x)=>returns the absolute (positive) value of x:
+	ex:-6.7 => 6.7
+
+
+================
+
+20th June:
+=========
+
+
+call back functions:
+What is callback function in JavaScript?
+A JavaScript callback is a function which is to be executed after another function has finished execution. 
+
+onload event
+setTimeout()
+setInterval()
+
+Callback hell:
+==============
+
+Callback hell is a phenomenon that happens when multiple callbacks are nested on top of each other. The two common ways of escaping the callback heare are by using promises and async/await. 
+
+
+Promise:
+A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. 
+This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
+
+new Promise(function()){
+
+}
+
+var promise = new Promise(function(resolve, reject) {
+const x = "javascript"
+const y = "javascript"
+if(x === y) {
+	resolve();
+} else {
+	reject();
+}
+});
+	
+promise.
+	then(function () {
+		console.log('Success');
+	}).
+	catch(function () {
+		console.log('Some error has occurred');
+	});
+
+
+
+Async / Await:
+=================
+
+What is async and await in JavaScript ES6?
+The async … await ES6 JavaScript syntax offers a new way to write more readable and scalable code to handle promises. A JavaScript async function can contain statements preceded by an await operator. The operand of await is a promise.
+
+Await: Await function is used to wait for the promise. It could be used within the async block only. It makes the code wait until the promise returns a result. It only makes the async block wait.
+
+
+    async function test(){
+        return 'hello'
+    }
+    test().then(data => console.log(data));
+   //console.log(test())
+
+----------------
+
+
+
+	const getData = async() => {
+		var y = await "Hello World";
+		console.log(y);
+	}
+	
+	console.log(1);
+	getData();
+	console.log(2);
+
